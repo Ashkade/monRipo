@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+	<fieldset>
+		<legend>Vos Coordonées</legend>
+		<table>
+		<form> 
+			<tr>
+				<td><label> Nom : </label></td>
+				<td><input type="text" placeholder="votre nom"></td>
+			</tr>
+			<tr>
+				<td><label> Prénom : </label></td>
+				<td><input type="text" placeholder="votre prénom"></td>
+			</tr>
+			<tr>
+				<td><label> Date de naissance : </label></td>
+				<td><input type="date"></td>
+			</tr>
+			<tr>
+				<td><label> Mail : </label></td>
+				<td><input type="Email"></td>
+			</tr>
+			<tr>
+				<td><label> Votre site : </label></td>
+				<td><input type="url"></td>
+			</tr>
+			<tr>
+				<td><label> Code </label></td>
+				<td><input type="password" maxlength="8"></td>
+			</tr>
+			<tr>
+				<td rowspan="2"><label> Genre : </label></td>
+				<td><input type="radio" name="toto"><label>Homme</label></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="toto"><label>Femme</label></td>
+			</tr>
+			<tr>
+				<td><label> Pays </label></td>
+				<td>
+					<select name="" id="">
+								<option value="">Votre pays</option>
+								<option value="">France</option>
+                                <option value="">Italie</option>
+                                <option value="">Espagne</option>
+                                <option value="">Allemagne</option>
+                                <option value="">Belgique</option>
+                            </select>
+				</td>
+		</form>
+		</table>
+	</fieldset>
+
+	<fieldset>
+		<legend>Vos Goûts</legend>
+		<table>
+		<form> 
+			<tr>
+				<td><input type="checkbox"></td>
+				<td><label> Tarte aux fraises à la crème d'amandes </label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td><label> Tarte aux prunes </label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox"></td>
+				<td><label> Tarte rustique aux mirabelles de Lorraine, noisettes et miel </label></td>
+			</tr>
+			<tr colspan="2">
+				<td><textarea type="text" placeholder="Décrivez vos goûts en détail"></textarea></td>
+			</tr>
+			
+		</form>
+		</table>
+	</fieldset>
+
+	<fieldset>
+		<legend>Envoyez nous votre photo</legend>
+		<table>
+		<form> 
+			<tr>
+				<td><input type="file"></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="Effacer"></td>
+				<td><input type="submit" value="Envoyer"></td>
+			</tr>
+			
+			
+		</form>
+		</table>
+	</fieldset>
+</body>
+
+</html>
